@@ -168,27 +168,33 @@ body{
     color: #ff4021;
 }
 
-.second-nav ol{
+.second-nav ul{
     list-style: none;
     display: block;
     margin-top: 20px;
-
+    
 }
 
-.second-nav ol li{
+.second-nav ul li{
     padding: 5px 0 10px 10px;
 }
 
-.second-nav ol li a{
+.second-nav ul li img{
+    width: 5%;
+
+}
+
+.second-nav ul li a{
     font-size: 1em;
     text-decoration: none;
     font-weight: bold;
     color: black;
     transition:all;
     transition-duration: .3s;
+
 }
 
-.second-nav ol li a:hover{
+.second-nav ul li a:hover{
     color:white;
 }
 
