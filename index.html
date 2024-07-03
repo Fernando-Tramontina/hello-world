@@ -1,13 +1,90 @@
-<html lang="pt-BR"> 
-    <head>
-        <!--Meta Dados da Pagina -->
-        <title>First Page - Harve</title>
-        <meta name="viewport" content="device-width, initial-scale=1.0"/>
-        <meta name="description" content="do que se trata a pagina"/>
-    </head>
-    <body>
-        <h1>testes</h1>
-        <h2>chupa sociedade</h2>
-        <q1>bah</q1>
-    </body>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Page</title>
+    <!--Fonte Montserrat-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!--Estilizaçao (css) que HTML irá buscar-->
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body> <!--o que for visível no site-->
+    <div class="">
+        <div class="container">
+        </div>
+    </div>
+    <h1 class="display-none">Cursos Harve</h1> <!--h1, h2, ... h6-->
+    <main class="wrapper">
+        <section class="section bg-light">
+            <div class="container">
+                <header class="section-header">
+                    <h2 class="section-header-title">Cursos de Programação</h2>
+                    <p class="section-header-subtitle">Os melhores cursos presenciais de Curitiba!</p>
+                </header>
+                <div class="courses">
+                    <!--article*3>header>h1 -->
+                    <article class="course">
+                        <div class="cover">
+                            <img src="./images/code.jpg" alt="Imagem de um codigo"/>
+                        </div>
+                        <header>
+                            <h1 class="ti-courses">PHP</h1>
+                        </header>
+                        <ul><!--lista desordenada-->
+                            <li>PDO - PHP Data Object</li> <!--li = list itens-->
+                            <li>SPL - Standard PHP Library</li>
+                            <li>PHP OO - Orientado a Objetos</li>
+                        </ul>
+                    </article>
+                    <article class="course">
+                        <header>
+                            <h1 class="ti-courses">JavaScript</h1>
+                        </header>
+                    </article>
+                    <article class="course">
+                        <header>
+                            <h1 class="ti-courses">GoLang</h1>
+                        </header>
+                    </article>
+                </div>
+            </div>
+            
+        </section>
+        
+        <section class="section">
+            <header>
+                <h2>Cursos de Marketing</h2>
+                <p>Quer ser marketeiro e enganar a todos, aprenda conosco!</p>
+            </header>
+            <div>
+                <article>
+                    <header>
+                        <h1 class="mkt-courses">Dados Aplicados a marketing</h1>
+                    </header>
+                </article>
+                <article>
+                    <header>
+                        <h1 class="mkt-courses">Marketing Digital</h1>
+                    </header>
+                </article>
+            </div>    
+        </section>
+
+        <aside class="section">
+            <h2>Cursos Relacionados</h2>
+            <article>
+                <header>
+                    <h3>Cursos de Docker</h3>
+                </header>
+            </article>
+        </aside>
+
+    </main>
+
+    
+
+</body>
 </html>

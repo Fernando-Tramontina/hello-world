@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+}
+
+
+.ti-courses{
+    
+}
+
+.mkt-courses{
+    
+}
+
+.section{
+    width: 100%;
+    padding: 60px 0;
+
+}
+
+.section-header{
+    text-align: center;
+    margin-bottom: 25px;
+    line-height: 1.1em;
+}
+
+.section-header-title{
+    margin-bottom: 25px;
+    font-weight: 300;
+    font-size: 1.8em;
+}
+
+.section-header-subtitle{
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-bottom: 12px;
+}
+
+.display-none{
+    display: none;
+}
+
+.wrapper{
+    display:flex;
+    flex-direction: column;
+}
+
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.py-10px{
+    
+}
+
+.bg-light{
+    background-color: #d8d8d8;
+}
+
+.courses{
+    display: flex;
+    flex-basis: 100%; /*ocupar 100% de onde estiver*/
+    justify-content: space-between; /*espalhe seu conteudo de forma justificada em determinado eixo*/
+}
+
+.courses .course{
+    flex-basis: calc(100% / 3 - 16px);
+    background-color: white;
+    padding: 16px 32px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.courses .course .cover{
+    flex-basis: 100%;
+    max-width: 100%;
+    margin-bottom: 16px;
+}
+
+.courses .course .cover img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+    margin: 0;
+}
+
+.courses .course header,
+.courses .course ul{
+    padding: 32px 40px;
+
+}
+
+.courses .course ul{
+    list-style: none;
+
+}
