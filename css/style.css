@@ -51,6 +51,7 @@ body{
 .bg-black{
     background-color: black;
 }
+
 .container{
     max-width: 80%;
     margin: 0 auto;
@@ -168,6 +169,12 @@ body{
     color: #ff4021;
 }
 
+.relatedcourses{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .second-nav ul{
     list-style: none;
     display: block;
@@ -176,12 +183,16 @@ body{
 }
 
 .second-nav ul li{
+
     padding: 5px 0 10px 10px;
+    display: flex;
+    flex-direction: row;
+    
 }
 
 .second-nav ul li img{
     width: 5%;
-
+    padding-right: 10px;
 }
 
 .second-nav ul li a{
@@ -191,7 +202,7 @@ body{
     color: black;
     transition:all;
     transition-duration: .3s;
-
+    align-self: center;
 }
 
 .second-nav ul li a:hover{

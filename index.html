@@ -3,146 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First Page</title>
-    <!--Fonte Montserrat-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <!--Estilizaçao (css) que HTML irá buscar-->
-    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="./css/aula09-07.css">
+    <title>Home</title>
 </head>
-<body> <!--o que for visível no site-->
-    <div class="bg-black">
-        <div class="container">
-            <div class="d-flex justify-between py-10px">
-                <div class="logo">
-                    <img src="./images/logo.svg"  alt="Logo da Harve" />
-                </div>
-                <nav class="main-nav">
-                    <ul>
-                        <li>
-                            <a href="/">Início</a>
-                        </li>
-                        <li>
-                            <a href="/cursos.html">Cursos</a>
-                        </li>
-                        <li>
-                            <a href="/contato.html">Contato</a>
-                        </li>
-                    </ul>
-                </nav>
+<body>
+    <section style="width: 100%;">
+        <div class="divmain">
+            <div class="caixa">
+                <p>A</p>
+            </div>
+            <div class="caixa sharedbox">
+                <p class="minibox">B</p>
+                <p class="minibox">C</p>
+            </div>
+            <div class="caixa">
+                <p>D</p>
             </div>
         </div>
-    </div>
-    <h1 class="display-none">Cursos Harve</h1> <!--h1, h2, ... h6-->
-    <main class="main-wrapper">
-        <section class="section bg-light">
-            <div class="container">
-                <header class="section-header">
-                    <h2 class="section-header-title">Cursos de Programação</h2>
-                    <p class="section-header-subtitle">Os melhores cursos presenciais de Curitiba!</p>
-                </header>
-                <div class="courses">
-                    <!--article*3>header>h1 -->
-                    <article class="course">
-                        <div class="cover">
-                            <img src="./images/html.jpg" alt="Imagem para curso HTML"/>
-                        </div>
-                        <header>
-                            <h1>HTML</h1>
-                        </header>
-                        <ul>
-                            <li>teste1</li>
-                            <li>teste2</li>
-                            <li>teste3</li>
-                        </ul>
-                    </article>
-                    <article class="course">
-                        <div class="cover">
-                            <img src="./images/php.jpg" alt="Imagem para curso PHP"/>
-                        </div>
-                        <header>
-                            <h1>PHP</h1>
-                        </header>
-                        <ul><!--lista desordenada-->
-                            <li>PDO - PHP Data Object</li> <!--li = list itens-->
-                            <li>SPL - Standard PHP Library</li>
-                            <li>PHP OO - Orientado a Objetos</li>
-                        </ul>
-                    </article>
-                    
-                    <article class="course">
-                        <div class="cover">
-                            <img src="./images/golang.jpg" alt="Imagem para curso GoLang"/>
-                        </div>
-                        <header>
-                            <h1>GoLang</h1>
-                        </header>
-                        <ul>
-                            <li>teste1</li>
-                            <li>teste2</li>
-                            <li>teste3</li>
-                        </ul>
-                    </article>
-                </div>
-            </div>
-            
-        </section>
-        
-        <section class="section bg-light">
-            <div class="container">
-                <header class="section-header">
-                    <h2 class="section-header-title">Cursos de Marketing</h2>
-                    <p class="section-header-subtitle">Quer ser marketeiro e enganar a todos, aprenda conosco!</p>
-                </header>
-                <div class="courses">
-                    <article class="mkt-course">
-                        <div class="cover">
-                            <img src="./images/dados-aplicados.jpg" alt="Imagem para curso Dados Aplicados"/>
-                        </div>
-                        <header>
-                            <h1>Dados Aplicados a marketing</h1>
-                        </header>
-                        <ul>
-                            <li>teste</li>
-                            <li>teste</li>
-                            <li>teste</li>
-                        </ul>
-                    </article>
-                    <article class="mkt-course">
-                        <div class="cover">
-                            <img src="./images/mkt-digital.jpg" alt="Imagem para curso Marketing Digital"/>
-                        </div>
-                        <header>
-                            <h1>Marketing Digital</h1>
-                        </header>
-                        <ul>
-                            <li>teste</li>
-                            <li>teste</li>
-                            <li>teste</li>
-                        </ul>
-                    </article>
-                </div>    
-            </div> 
-        </section>    
-        
-        <aside class="end-page border">
-            <div class="container ">
-                <h2>Cursos Relacionados</h2>
-                <nav class="second-nav">
-                    <ul>
-                        <li>
-                            <img src="./images/docker.svg" alt="Logo Python"/>
-                            <a href="/curso-de-docker.html">Curso de Docker</a>
-                        </li>
-                        <li>
-                            <img src="./images/python.svg" alt="logo Docker"/>
-                            <a href="/curso-de-python.html">Curso de Pyhton</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </aside>
-    </main>
+    </section>
 </body>
 </html>

@@ -1,0 +1,35 @@
+.divmain{
+    margin: 100px;
+    width: 650px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;  
+    background-color: orange;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.caixa{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.caixa p{
+    font-size: 50px;
+}
+
+.sharedbox{
+    justify-content: space-around;
+}
+
+.minibox{
+    background-color: rgb(182, 138, 138);
+    border-radius: 10px;
+    padding: 10%;
+}
